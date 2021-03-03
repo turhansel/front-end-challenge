@@ -8,6 +8,8 @@ Thanks for checking out my front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
+İf you wanna take a look my first project you can [click here](https://profile-card-component-rho-two.vercel.app/)
+
 
 
 
