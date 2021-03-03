@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  font-size: 18px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(0, 11%, 12%);
+}
+section {
+  background-color: var(--dark-cyan);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.card {
+  width: 340px;
+  height: auto;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+  /* z-index: 1; */
+  position: relative;
+}
+.card-header {
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 150px;
+}
+
+.card-body {
+  padding: 0px 20px 25px;
+}
+
+.img-holder {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 5px solid white;
+  overflow: hidden;
+  margin: -55px auto 30px auto;
+}
+
+.img-holder img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.age,
+.city,
+.meta {
+  font-weight: 400;
+  color: hsl(0, 11%, 12%);
+  opacity: 0.5;
+}
+.name-age {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.age {
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.city {
+  font-size: 0.9rem;
+}
+
+.card-footer {
+  border-top: 1px solid hsl(0, 3%, 86%);
+  display: flex;
+  padding: 0 25px;
+}
+
+.card-footer .item {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer .item .value {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.card-footer .item .meta {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+/* Circles */
+
+.circles .top,
+.circles .bottom {
+  position: absolute;
+  width: 900px;
+  height: auto;
+  animation: 2s circles forwards;
+  opacity: 0;
+  
+}
+
+.circles .top {
+  top: -560px;
+  left: -175px;
+  transform: translate(-100px, -100px);
+}
+
+.circles .bottom {
+  bottom: -560px;
+  right: -175px;
+  transform: translate(100px, 100px);
+}
+
+@keyframes circles {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+/* Attribution */
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(100%);
+  transition: 0.4s;
+  padding: 20px;
+  background-color: rgba(184, 173, 173, 50%);
+  font-size: 16px;
+  text-align: center;
+}
+.attribution:hover {
+  transform: translateY(0);
+}
+
+.attribution::before {
+  content: '';
+  background-color: rgba(253, 253, 253, 20%);
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
