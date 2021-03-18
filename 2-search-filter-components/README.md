@@ -1,6 +1,6 @@
 # Support Page Components
 
-![Design preview for the components coding challenge](./design/components.sketch)
+![Design preview for the components coding challenge](./design/components.png)
 
 ## Hey, There! 👋
 
