@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  -webkit-overflow-scrolling: touch;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #202035;
+  padding: 50px;
+}
+
+.component {
+  border-radius: 10px;
+  background-color: #1b1b30;
+}
+
+.component-help {
+  height: 222px;
+  width: 855px;
+  margin-bottom: 25px;
+  padding: 40px 50px;
+}
+
+.component-help h4 {
+  font-size: 36px;
+  color: #bbbbd7;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+.component-help form {
+  width: 100%;
+}
+
+.component-help form input {
+  width: 100%;
+  height: 72px;
+  border-radius: 5px;
+  padding: 0 40px 0 75px;
+  font-size: 18px;
+  border: 1px solid #454564;
+  background: #2a2a42 url("data:image/svg+xml,%3Csvg width='28px' height='28px' viewBox='0 0 34 34' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3EGroup%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' opacity='0.5'%3E%3Cg id='Day-1181-Support-Page-UI-COmponents-Design' transform='translate(-380.000000, -324.000000)'%3E%3Cg id='Group-7' transform='translate(228.000000, 195.000000)'%3E%3Cg id='Group-6' transform='translate(77.000000, 0.000000)'%3E%3Cg id='Group' transform='translate(75.000000, 129.000000)'%3E%3Cpolygon id='Path' points='0 0 34 0 34 34 0 34'%3E%3C/polygon%3E%3Ccircle id='Oval' stroke='%23FFFFFF' stroke-width='2.125' stroke-linecap='round' stroke-linejoin='round' cx='14.1666667' cy='14.1666667' r='9.91666667'%3E%3C/circle%3E%3Cline x1='29.75' y1='29.75' x2='21.25' y2='21.25' id='Path' stroke='%23FFFFFF' stroke-width='2.125' stroke-linecap='round' stroke-linejoin='round'%3E%3C/line%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat 25px;
+  -webkit-transition: 300ms border-col or ease-in-out;
+  transition: 300ms border-col or ease-in-out;
+  color: #fff;
+}
+
+.component-help form input:focus {
+  border-color: #5a5a82;
+}
+
+.component-help form input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.component-help form input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.component-help form input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.component-help form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.component-sidebar {
+  margin-bottom: 25px;
+  width: 307px;
+  height: 511px;
+  padding: 30px;
+  display: inline-block;
+}
+
+.component-sidebar h6 {
+  color: #bbbbd7;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.component-sidebar nav ul li a {
+  display: block;
+  font-size: 16px;
+  color: #786cd5;
+  padding: 6 px 0;
+  -webkit-transition: 200ms color ease-in-out;
+  transition: 200ms color ease-in-out;
+}
+
+.component-sidebar nav ul li a:hover {
+  color: #fff;
+}
+
+.component-sidebar p {
+  font-size: 16px;
+  color: #bbbbd7;
+  line-height: 24px;
+  padding-right: 9px;
+  margin-bottom: 20px;
+}
+
+.component-sidebar .button {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #786cd5;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.component-sidebar .button:hover {
+  background-color: #5b4ccc;
+}
+
+.component-sidebar hr {
+  background: #141428;
+  height: 2px;
+  margin: 25px 0;
+}
+
+.component-list {
+  display: inline-block;
+  margin-left: 80px;
+  width: 735px;
+  height: 449px;
+}
+
+.component-list li {
+  margin-bottom: 10px;
+}
+
+.component-list li:last-child {
+  margin-bottom: 0;
+}
+
+.component-list li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1b1b30;
+  padding: 30px;
+  -webkit-transition: 300ms -webkit-transform ease-in-out;
+  transition: 300ms -webkit-transform ease-in-out;
+  transition: 300ms transform ease-in-out;
+  transition: 300ms transform ease-in-out, 300ms -webkit-transform ease-in-out;
+}
+
+.component-list li a .inner .title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #bbbbd7;
+  margin-bottom: 20px;
+}
+
+.component-list li a .inner .description {
+  font-size: 16px;
+  line-height: 20px;
+  color: #bbbbd7;
+}
+
+.component-list li a:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.component-list li a .category {
+  margin-left: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 18px;
+  border-radius: 16px;
+}
+
+.component-list li a .pay {
+  color: #ff7e9c;
+  background-color: rgba(252, 124, 154, 0.1);
+}
+
+.component-list li a .pri {
+  color: #7ea1ff;
+  background-color: rgba(124, 152, 252, 0.1);
+}
+
+.component-list li a .api {
+  color: #ff7e7e;
+  background-color: rgba(252, 124, 124, 0.1);
+}
+/*# sourceMappingURL=main.css.map */
